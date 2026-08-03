@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: us-east-2
-  ECR_REPOSITORY: trucking-company
+  ECR_REPOSITORY: trucking-company-lab
 
 jobs:
   build-and-push:
