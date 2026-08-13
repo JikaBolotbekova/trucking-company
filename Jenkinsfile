@@ -92,7 +92,8 @@ pipeline {
             }
         }
 
-        stage('Push Docker Image to ECR')             steps {
+        stage('Push Docker Image to ECR'){
+            steps {
                 sh '''
                     docker push \
                     ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPOSITORY}:${IMAGE_TAG}
