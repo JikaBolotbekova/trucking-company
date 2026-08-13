@@ -8,7 +8,7 @@ pipeline {
         IMAGE_TAG = "latest"
 
         AWS_REGION = "us-east-2"
-        AWS_ACCOUNT_ID = "230026708124"
+        AWS_ACCOUNT_ID = "107014414047"
         ECR_REPOSITORY = "trucking-company"
     }
 
