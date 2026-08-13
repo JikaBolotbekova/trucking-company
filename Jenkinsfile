@@ -92,7 +92,7 @@ pipeline {
             }
         }
 
-        stage('Push Docker Image to ECR'){
+        stage('Push Docker Image to ECR') {
             steps {
                 sh '''
                     docker push \
@@ -118,4 +118,4 @@ pipeline {
             echo "========================================"
         }
     }
-
+}
